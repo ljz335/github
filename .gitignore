@@ -1,0 +1,108 @@
+# ---- 代理说明文件（仅本地，不入库）----
+AGENTS.md
+
+# ---- OS 杂项 ----
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+*.lnk
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# ---- 密钥与本地配置（务必不要提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+secrets.json
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.next/
+coverage/
+.cache/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- C/C++ 通用构建产物 ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+build/
+Build/
+
+# ---- Keil MDK ----
+Objects/
+Listings/
+RTE/
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.dep
+*.crf
+*.axf
+
+# ---- IAR ----
+Debug/Exe/
+Release/Exe/
+*.ewp
+*.eww
+*.ewd
+
+# ---- STM32CubeIDE / Eclipse ----
+.metadata/
+.settings/
+.cproject
+.project
+Debug/
+Release/
+
+# ---- ESP-IDF ----
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+# ---- Vivado / Xilinx ----
+.Xil/
+*.jou
+*.str
+*.rpt
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+
+# ---- 压缩包与镜像 ----
+*.zip
+*.7z
+*.rar
+*.iso
